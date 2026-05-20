@@ -189,9 +189,9 @@ serviceMaps:
 
       - jsonPath: $.Refund.auditDetails.createdTime
 
-      - jsonPath: $.Refund.auditDetails.lastUpdatedBy
+      - jsonPath: $.Refund.auditDetails.lastModifiedBy
 
-      - jsonPath: $.Refund.auditDetails.lastUpdatedTime
+      - jsonPath: $.Refund.auditDetails.lastModifiedTime
 
   - version: 1.0
     name: pg-service-refund
@@ -211,9 +211,9 @@ serviceMaps:
 
       - jsonPath: $.Refund.status
 
-      - jsonPath: $.Refund.auditDetails.lastUpdatedBy
+      - jsonPath: $.Refund.auditDetails.lastModifiedBy
 
-      - jsonPath: $.Refund.auditDetails.lastUpdatedTime
+      - jsonPath: $.Refund.auditDetails.lastModifiedTime
 
       - jsonPath: $.Refund.refundId
 
